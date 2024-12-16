@@ -1,60 +1,456 @@
-<!DOCTYPE html> 
-<html lang="fr">
-    <head> 
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Cv étudiant</title>
-    </head>
-    <body>
-        <div class="cv-container">
-     
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="PortFolio - BTS SIO SISR - Axel Chamey">
+    <meta name="author" content="Axel Chamey">
 
-            <h2>
-                Bonjour je me présente ,mon nom est MOHAMED ZAKIR Naoufal je suis étudiant 
-                au lycéee Parc de Vilgenis à Massy en BTS SIO .
-            </h2>
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+	<meta property="og:site_name" content="chamey.fr" /> <!-- website name -->
+	<meta property="og:site" content="chamey.fr" /> <!-- website link -->
+	<meta property="og:title" content="PortFolio - BTS SIO SISR - Axel Chamey"/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="PortFolio - BTS SIO SISR - Axel Chamey" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
 
+    <!-- Webpage Title -->
+    <title>PortFolio - BTS SIO SISR - Axel Chamey</title>
+    
+    <!-- Styles -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	
+	<!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container">
+            
+            <!-- Image Logo -->
+            <!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/AC.svg" alt="mon logo"></a>   -->
 
-            <section id="Compétence">
-                <p>
-                    <strong>Competence</strong> <br>
-                    -concentré <br>
-                    -à l'écoute <br>
-                    -ponctuel <br>
-                    -sérieux <br>
-                    -envie d'apprendre <br>
-                </p>
-                <p>
-                    <strong>Education</strong>
-                    -titulaire du brevet général mention assez bien 2021 <br>
-                    -titulaire du bafa 5 mars 2023 <br>
-                    -titulaire du bac SN section ARED 2024 <br>
-                    -1ere année de BTS SIO (en cours) 
-
-                </p>
-                <strong>Experiance professionel</strong>
-            J'ai effectué mes tdeux années de stage dans une boutique de réparation de matériel informatique
-            cela c'est très bien déroulé cela  m'a montré la vie en entreprise et le monde du travai.Cela m'a aussi
-            montré les compétence à acquerir pour pouvoir accéder à ce monde .
-
-                <P>
-
-                </P>
-
-                
-                <p> 
-                  <h3>Je suis a la recherche d'un stage concernant le monde du réseau 
-                ,je suis ouvert à la decouverte j'aimerais apprendre le monde de l'informatique 
-                ,concentré sérieux et à l'écoute cela m'aiderai énormément dans mon apprentissage merci à vous.
-
-                  </h3>
-                  
-                </p>
-                
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+            <a class="navbar-brand logo-text page-scroll" href="index.html">AXEL CHAMEY</a>
 
 
-            </section>
+            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        </div>
-    </body>
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#header">Accueil <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#about">Mon Parcours</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#entreprise">Mon Entreprise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#bts">BTS SIO</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mes Projets</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item page-scroll" href="#projet_entreprise">Projets d'entreprise</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item page-scroll" href="#projet_cours">Projets de cours</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item page-scroll" href="#procedures">Procedures</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#veille">Veille info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+            </div> <!-- end of navbar-collapse -->
+        </div> <!-- end of container -->
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h1 class="h1-large">Bienvenue sur mon PortFolio</h1>
+                        <a class="btn-solid-lg page-scroll" href="#about">Découvrir</a>
+                        <!-- <a class="btn-outline-lg page-scroll" href="#contact"><i class="fas fa-user"></i>Contact Me</a> -->
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </header> <!-- end of header -->
+    <!-- end of header -->
+
+
+    <!-- About-->
+    <div id="about" class="basic-1 bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="text-container first">
+                        <h2>Bonjour, moi c'est Axel Chamey</h2>
+                        <p>Passionné de réseaux et d'informatique en général depuis le plus jeune âge, je vous présente mon cursus</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <div class="text-container second">
+                        <div class="time">2022 - à ce jour</div>
+                        <h6>Etudiant en BTS SIO SISR</h6>
+                        <p>Jonglage entre cours et travail grâce à l'alternance</p>
+                        <p>📍 Ecoris Annecy</p>
+
+                        <div class="time">2019 - 2022</div>
+                        <h6>Etudiant en BAC PRO RISC</h6>
+                        <p>Concrétisation de mon choix notamment grâce à un total de 16 semaines de stage dans plusieurs entreprises</p>
+                        <p>📍 Lycée Professionnel Saint Vincent de Paul Collonges-sous-Salève</p>
+                    </div> <!-- end of text-container -->
+
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <div class="text-container third">
+                        <div class="time">2022</div>
+                        <h6>Obtention du Bac Pro RISC</h6>
+                        <p>Mention Très Bien</p>
+
+                        <div class="time">2018</div>
+                        <h6>Obtention du Brevet des collèges</h6>
+                        <p>Mention Bien</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of about -->
+
+    <!-- Mon entreprise -->
+    <div id="entreprise" class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <img src="images/acs.png" alt="logo acs">
+                </div> <!-- end of col -->
+
+                <div class="col-lg-2">
+                </div>
+            
+                <div class="col-lg-8">
+                    <h2 class="align-content-start">Alpes Communications Systems</h2>
+                    <p>Emeric Ducruet et Olivier Pizzo sont co-gérant de la société</p>
+                    <p>ACS est une PME savoyarde familiale implantée à Chambéry depuis 1979</p>
+                    <p>Une équipe d'environ 40 personnes qualifiées et expérimentées comprennent 10 techniciens formés par KONICA MINOLTA et 5 informaticiens spécialistes des systèmes d’information</p>
+                    <p>ACS est un partenaire majeur des clubs sportifs de son secteur comme Aix-Maurienne Savoie Basket, La Motte-Servolex Cyclisme, Hockey sur glace Chambéry et Annecy</p>
+                    <a href="https://acskm.fr">https://acskm.fr</a>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- fin de "mon entreprise" -->
+
+    <!-- Mon Bts -->
+    <div id="bts" class="basic-2 bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="h2-heading">Mon BTS</h2>
+                    <p class="p-heading">Le BTS SIO, ou "Services Informatiques aux Organisations", est un diplôme de niveau Bac+2 proposé en France. 
+                        Ce diplôme vise à former des professionnels capables de répondre aux besoins informatiques des organisations</p>
+                   <h5 class="p-heading">Objectif de la formation :</h3>
+                        <p>
+                        - Le BTS SIO a pour objectif de former des techniciens spécialisés dans les services informatiques,
+                         capables de concevoir, mettre en place, et maintenir des solutions informatiques au sein des organisations.
+                        </p>
+
+                        <p>
+                        - Le BTS SIO propose deux options : "Solutions d'Infrastructure, Systèmes et Réseaux" (SISR) et "Solutions Logicielles et Applications Métiers" (SLAM). 
+                            Les étudiants choisissent l'une de ces options en fonction de leur intérêt et de leurs objectifs de carrière.
+                        </p>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- fin de "mon bts" -->
+
+    <!-- projet d'entreprise -->
+    <div id="projet_entreprise" class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="h2-heading">Mes Projets en entreprise</h2>
+                    <p class="p-heading">Voici une liste de mes projets en entreprise</p>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-box">
+                        <h4>Audit et proposition d'infrastructure</h4>
+                        <a href="procedures/PE1.pdf" target="_blank">
+                        <img src="images/PE1.PNG" alt="Projet Entreprise n*1" class="image col-lg-12"></a>
+                    </div> <!-- end of text-box -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="text-box">
+                        <h4>Mon laboratoire informatique</h4>
+                        <a href="https://chamey.fr" target="_blank">
+                        <img src="images/PE2.jpg" alt="Projet Entreprise n*2" class="image col-lg-12"></a>
+                    </div> <!-- end of text-box -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of projet1 -->
+
+    <!-- projet de cours -->
+    <div id="projet_cours" class="basic-2 bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="h2-heading">Mes Projets de cours</h2>
+                    <p class="p-heading">Voici une liste de mes projets de cours</p>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-box">
+                        <h4>Profil Itinérant</h4>
+                        <a href="procedures/PC1.pdf" target="_blank">
+                        <img src="images/PC1.png" alt="Projet de cours n*1" class="image col-lg-12"></a>
+                        <a href="anx/E5_Projet_Profils_itinerants_CHAMEY_AXEL_2024.pdf" target="_blank" class="font-weight-bold">
+                            Fiche E5 Profils Itinérants
+                        </a>
+                    </div> <!-- end of text-box -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="text-box">
+                        <h4>Zabbix</h4>
+                        <a href="procedures/PC2.pdf" target="_blank">
+                        <img src="images/PC2.png" alt="Projet de cours n*2" class="image col-lg-12"></a>
+                        <a href="anx/E5_Projet_Zabbix_CHAMEY_AXEL_2024.pdf" target="_blank" class="font-weight-bold">
+                            Fiche E5 Zabbix
+                        </a>
+                    </div> <!-- end of text-box -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of projet2 -->
+
+    <!-- procedures -->
+    <div id="procedures" class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12" style="margin-bottom:25px;">
+                    <h2 class="h2-heading">Mes procédures</h2>
+                    <p class="p-heading">Voici les procédures réalisées pour les cours</p>
+                    <center>
+                        <a href="anx/Fiche E4.pdf" target="_blank" class="font-weight-bold">Tableau de synthèse - Epreuve E4</a>
+                    </center>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="text-box">
+                        <h4>PF sense</h4>
+                        <a href="procedures/pf.pdf" target="_blank">
+                        <img src="images/pf.jpg" alt="pf sense" class="image col-lg-12" style="max-width:93%;">
+                        </a>
+                    </div> <!-- end of text-box -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <div class="text-box">
+                        <h4>DMZ</h4>
+                        <a href="procedures/DMZ.pdf" target="_blank">
+                        <img src="images/dmz.png" alt="dmz" class="image col-lg-12" style="max-width:98%;">
+                        </a>
+                    </div> <!-- end of text-box -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <div class="text-box">
+                        <h4>Centreon</h4>
+                        <a href="procedures/centreon.pdf" target="_blank">
+                        <center>
+                            <img src="images/centreon.jpg" alt="portail captif" class="image col-lg-12" style="max-width:51.5%;">
+                        </center>
+                        </a>
+                    </div> <!-- end of text-box -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="text-box">
+                        <h4>Active directory</h4>
+                        <a href="procedures/ad.pdf" target="_blank">
+                        <img src="images/ad.png" alt="active directory" class="image col-lg-12">
+                        </a>
+                    </div> <!-- end of text-box -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <div class="text-box">
+                        <h4>LDAP</h4>
+                        <a href="procedures/LDAP.pdf" target="_blank">
+                        <img src="images/LDAP.png" alt="dhcp" class="image col-lg-12" style="max-width:87.5%;">
+                        </a>
+                    </div> <!-- end of text-box -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <div class="text-box">
+                        <h4>Routage NAT</h4>
+                        <a href="procedures/routage.pdf" target="_blank">
+                        <img src="images/dns.png" alt="dns" class="image col-lg-12" style="max-width:75.5%;">
+                        </a>
+                    </div> <!-- end of text-box -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of procedures -->
+
+    <!-- Veille Info -->
+    <div id="veille" class="basic-2 bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="h2-heading">Veille Informationelle</h2>
+                    <p class="p-heading">Lien vers mon pearltrees:</p>
+                    <a href="https://www.pearltrees.com/axel_cha" target="_blank">
+                    <img src="images/pearltrees.png" alt="pearltrees" class="Image rounded" style="max-width:50%;">
+                    </a>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- fin de "Veille Info" -->
+
+    <!-- Contact -->
+    <div id="contact" class="form-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Me contacter</h2>
+                    <p class="p-heading">Pour tout type de demande, n'hésitez pas à me contacter à cette adresse email <a class="blue no-line" href="mailto:axel@chamey.fr">axel@chamey.fr</a></p>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                    <!-- Contact Form -->
+                    <!-- <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="cname" required>
+                            <label class="label-control" for="cname">Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control-input" id="cemail" required>
+                            <label class="label-control" for="cemail">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control-textarea" id="cmessage" required></textarea>
+                            <label class="label-control" for="cmessage">Project details</label>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="form-control-submit-button">Submit</button>
+                        </div>
+                    </form> -->
+                    <!-- end of contact form -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form-1 -->  
+    <!-- end of contact -->
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="social-container">
+                        <!-- <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                            </a>
+                        </span> -->
+                        <!-- <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x"></i>
+                            </a>
+                        </span> -->
+                        <span class="fa-stack">
+                            <a href="https://fr.linkedin.com/in/axelchamey">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    </div> <!-- end of social-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->  
+    <!-- end of footer -->
+
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">© 2024 <a class="no-line" href="https://chamey.fr">chamey.fr tout droit réservé</a></p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Distributed By <a class="no-line" href="https://themewagon.com/">Themewagon</a></p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+        
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
+    
+    	
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+</body>
 </html>
